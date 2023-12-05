@@ -56,18 +56,14 @@
   }
 }
 
-@media (max-width: 479px) and (min-width: 400px) {
+@media (max-width: 479px) {
   .btn-container {
-    margin-top: -0.2rem;
-    right: 1%;
+    position: relative;
+    margin-top: 1rem;
+    right: 0%;
   }
 }
 
-@media (max-width: 399px) {
-  .btn-container {
-    top: 0.16rem;
-  }
-}
 .join {
   background-color: #727eba;
   color: #fff;
@@ -78,9 +74,16 @@
   border: none;
   cursor: pointer;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 480px) {
   .join {
     padding: 0.6rem 0.8rem;
+  }
+}
+
+@media (max-width: 479px) {
+  .join {
+    padding: 0.6rem 0.8rem;
+    width: 100%;
   }
 }
 
