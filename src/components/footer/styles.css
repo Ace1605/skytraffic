@@ -49,7 +49,7 @@
 
 @media (max-width: 960px) {
   .bottom_footer {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
