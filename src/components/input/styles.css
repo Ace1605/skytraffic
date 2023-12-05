@@ -1,0 +1,123 @@
+.input-container {
+  position: relative;
+  width: 50%;
+}
+@media (max-width: 1060px) {
+  .input-container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 769px) and (min-width: 444px) {
+  .input-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 443px) {
+  .input-container {
+    width: 96%;
+  }
+}
+.input-field {
+  display: block;
+  border-radius: 0.5rem;
+  padding: 1.3em 7em 1.3em 1em;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: none;
+  width: 100%;
+  font-weight: 400;
+}
+
+.input-field:focus {
+  border: 1px solid rgb(77, 168, 221);
+}
+
+.input-field:focus-visible {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .input-field {
+    padding: 1.4em 7em 1.4em 1em;
+  }
+}
+
+.btn-container {
+  position: absolute;
+  top: 0.3rem;
+  right: 1.2%;
+}
+
+@media (max-width: 768px) and (min-width: 480px) {
+  .btn-container {
+    top: 15%;
+  }
+}
+
+@media (max-width: 479px) and (min-width: 400px) {
+  .btn-container {
+    margin-top: -0.2rem;
+    right: 1%;
+  }
+}
+
+@media (max-width: 399px) {
+  .btn-container {
+    top: 0.16rem;
+  }
+}
+.join {
+  background-color: #727eba;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.7rem 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .join {
+    padding: 0.6rem 0.8rem;
+  }
+}
+
+.join:hover {
+  scale: 0.97;
+}
+
+.toast-p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .toast-p {
+    font-size: 0.8rem;
+  }
+}
+
+.moveRight {
+  animation: moveRightAnimation 3s linear infinite;
+  color: #fff;
+}
+
+@keyframes moveRightAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(30px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  75% {
+    transform: translateX(170px);
+  }
+  100% {
+    transform: translateX(260px);
+  }
+}

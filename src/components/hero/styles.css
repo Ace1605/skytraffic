@@ -1,0 +1,111 @@
+.hero_wrapper {
+  padding: 2rem 10%;
+}
+
+@media (max-width: 960px) {
+  .hero_wrapper {
+    padding: 2rem 0;
+  }
+}
+
+.hero_wrapper svg {
+  color: #fff;
+  position: absolute;
+  left: 27.2%;
+  margin-top: -0.09rem;
+}
+
+@media (max-width: 1730px) and (min-width: 1460px) {
+  .hero_wrapper svg {
+    left: 23.2%;
+  }
+}
+
+@media (max-width: 1460px) and (min-width: 961px) {
+  .hero_wrapper svg {
+    left: 18.7%;
+  }
+}
+
+@media (max-width: 960px) {
+  .hero_wrapper svg {
+    left: 3.7%;
+  }
+}
+
+.hero_wrapper p {
+  color: #fff;
+}
+.main-p {
+  padding-left: 14%;
+  width: 47%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 960px) {
+  .main-p {
+    padding-left: 6%;
+    width: 90%;
+    margin-top: 2rem;
+  }
+}
+.catch-phrase {
+  font-size: 1.18rem;
+  font-weight: 200;
+}
+
+.hero_wrapper hr {
+  width: 28%;
+  height: 2px;
+  border: none;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+}
+
+@media (max-width: 1730px) and (min-width: 1461px) {
+  .hero_wrapper hr {
+    width: 24%;
+  }
+}
+
+@media (max-width: 1460px) and (min-width: 961px) {
+  .hero_wrapper hr {
+    width: 20%;
+  }
+}
+
+@media (max-width: 960px) {
+  .hero_wrapper hr {
+    width: 7%;
+  }
+}
+
+.hero_wrapper h2 {
+  color: #fff;
+  font-size: 3rem;
+  word-spacing: -0.1rem;
+  letter-spacing: -0.07rem;
+  font-weight: 500;
+  margin: 4px 0;
+  width: 78%;
+  line-height: 3rem;
+}
+
+@media (max-width: 960px) {
+  .hero_wrapper h2 {
+    font-size: 2.3rem;
+    width: 97%;
+  }
+}
+
+.input-holder {
+  margin: 0rem 14%;
+}
+
+@media (max-width: 960px) {
+  .input-holder {
+    margin: 0rem 0 0 6%;
+  }
+}

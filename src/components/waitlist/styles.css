@@ -1,0 +1,33 @@
+.waitlist_wrapper {
+  border: 1px solid rgb(187, 187, 187);
+  background: rgba(51, 18, 105, 0.55);
+  margin-top: 10rem;
+  padding: 4rem 0;
+  display: grid;
+  justify-items: center;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 960px) {
+  .waitlist_wrapper {
+    margin-top: 2rem;
+  }
+}
+
+.waitlist_wrapper h2 {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 500;
+  margin: 2px 0;
+}
+
+@media (max-width: 960px) {
+  .waitlist_wrapper h2 {
+    font-size: 2.3rem;
+  }
+}
+
+.waitlist_wrapper p {
+  margin: 2px 0 1.4rem 0;
+  font-size: 1rem;
+}
