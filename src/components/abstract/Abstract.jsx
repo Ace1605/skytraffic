@@ -23,7 +23,7 @@ function Abstract() {
             <Typewriter
               options={{
                 strings:
-                  "Our real-time data empowers you with the latest insights into airline performance. Make informed decisions, knowing your choice is backed by up-to-date information, reducing uncertainties and enhancing your overall booking experience",
+                  "Our analytics empowers you with insights into airline performance, going as far back as required. Make informed decisions, knowing your choices are backed by real-time data, reducing uncertainties, and enhancing your overall booking experience.",
                 autoStart: true,
                 loop: false,
                 delay: 1,
@@ -38,13 +38,13 @@ function Abstract() {
               duration: 0.4,
             }}
           >
-            Own & craft your journey
+            Data fuelled by community
           </motion.h3>
           <p>
             <Typewriter
               options={{
                 strings:
-                  "Our real-time data empowers you with the latest insights into airline performance. Make informed decisions, knowing your choice is backed by up-to-date information, reducing uncertainties and enhancing your overall booking experience",
+                  "Chat live with passengers in other airports. View verified flight updates from actual passengers. Stay informed, especially in situations where your outbound flight is being expected to come in from another airport",
                 autoStart: true,
                 loop: false,
                 delay: 1,
@@ -59,13 +59,13 @@ function Abstract() {
               duration: 0.4,
             }}
           >
-            Data fueled by community
+            On-demand performance matrices
           </motion.h3>
           <p>
             <Typewriter
               options={{
                 strings:
-                  "Our real-time data empowers you with the latest insights into airline performance. Make informed decisions, knowing your choice is backed by up-to-date information, reducing uncertainties and enhancing your overall booking experience",
+                  "Get anytime access to performance analytics for all airlines operating your chosen route, including; early departures, on-time departures, delays, and cancellations",
                 autoStart: true,
                 loop: false,
                 delay: 1,

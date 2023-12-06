@@ -15,8 +15,10 @@ function Hero() {
           duration: 0.4,
         }}
       >
-        <p className="catch-phrase">Own your journey</p>
-        <h2>SkyTraffic helps you make smarter, well-informed travel choices</h2>
+        <p className="catch-phrase">Wouldn’t you rather know?</p>
+        <h2>
+          SkyTraffic helps you make smarter, better-informed travel choices.
+        </h2>
       </motion.div>
       <motion.div
         initial={{ opacity: 0 }}
@@ -29,8 +31,8 @@ function Hero() {
         <FaAngleRight />
         <hr />
         <p className="main-p">
-          Get access to real-time data, with unparalleled insights into online
-          performance across every route.
+          Get access to real-time data, with unparalleled insights into airline
+          performance across all routes
         </p>
         <div className="input-holder">
           <Input />

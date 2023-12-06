@@ -9,24 +9,10 @@ function Footer() {
         <div className="footer-grid inner">
           <div>
             {" "}
-            <a href="/" className="logo">
+            <a href="/" className="logos">
               <TbCircleDashed />
               <span>SkyTraffic</span>
             </a>
-          </div>
-          <div>
-            <h4>About</h4>
-            <p>
-              We believe that air travelers deserve the knowledge to make
-              informed decisions -considering the significant investment in
-              their tickets.
-            </p>
-            <p>
-              <span className="mission">Our mission</span> is simple - provide
-              accessible, real-time data on airline performance to empower you
-              with the information you need to make informed decisions when
-              purchasing tickets.
-            </p>
           </div>
           <div>
             <h4>Contact</h4>
@@ -37,7 +23,6 @@ function Footer() {
       <hr />
       <div className="container">
         <div className="bottom_footer">
-          <div className="empty"></div>
           <div>
             <p>© copyright skytrafiic 2023</p>
           </div>

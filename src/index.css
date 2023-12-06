@@ -47,3 +47,8 @@ code {
 .inner {
   padding: 0 1.8rem;
 }
+
+.home-footer {
+  position: absolute;
+  bottom: 0;
+}

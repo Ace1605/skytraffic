@@ -46,13 +46,13 @@ function HowItWorks() {
         <div className="box three">
           <PiNumberCircleThreeFill />
           <p>
-            <span>Review </span>each airline's performance
+            <span>Review </span>the performance of each airline
           </p>
         </div>
         <div className="box-last four">
           <PiNumberCircleFourFill />
           <p>
-            <span>Choose </span>an airline with confidence
+            <span>Select </span>an airline with confidence
           </p>
         </div>
       </motion.div>
