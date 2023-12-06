@@ -1,8 +1,55 @@
 .head {
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  padding: 1.8rem 0;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .head {
+    display: none;
+  }
+}
+
+.colors-head {
+  background-color: #fff;
+}
+
+.colored-head {
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  padding: 1.8rem 0;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .colored-head {
+    display: none;
+  }
+}
+
+.colored-head svg {
+  color: #727eba;
+}
+
+.colored-head a {
+  color: #727eba;
+}
+
+.nav-con {
   display: flex;
+  max-width: 1300px;
+  min-width: 320px;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  margin: 1.8rem 0;
 }
 
 .logo {
@@ -13,6 +60,27 @@
   font-weight: 700;
   color: #fff;
   text-decoration: none;
+  margin-left: 1.8rem;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.head .navigation a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.colored-head .navigation a {
+  color: #727eba;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
 }
 
 .head p {
@@ -29,8 +97,21 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
+  margin-right: 1.8rem;
 }
 
 .wait:hover {
   scale: 0.97;
+}
+
+.colored-head .wait {
+  background-color: #727eba;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.7rem 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
 }

@@ -1,0 +1,31 @@
+.about-page {
+  height: 100vh;
+}
+.about-footer {
+  position: absolute;
+  bottom: 0;
+}
+@media (max-width: 960px) {
+  .about-footer {
+    position: relative;
+  }
+}
+
+.hip {
+  padding: 0 10%;
+  margin-bottom: 9rem;
+}
+
+.foots {
+  width: 100vw;
+}
+
+.about-page h2 {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.about-page p {
+  width: 80%;
+}

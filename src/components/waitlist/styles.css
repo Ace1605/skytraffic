@@ -1,7 +1,7 @@
 .waitlist_wrapper {
   border: 1px solid rgb(187, 187, 187);
   background: rgba(51, 18, 105, 0.55);
-  margin-top: 10rem;
+  margin: 10rem 0;
   padding: 4rem 0;
   display: grid;
   justify-items: center;
